@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="erl-Ax-HC1">
+                                <rect key="frame" x="0.0" y="76" width="600" height="44"/>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Cso-8C-3fE"/>
+                                </constraints>
+                                <state key="normal" title="创建手势密码">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="createBtnOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XGZ-om-m2T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XuK-X4-y3i">
+                                <rect key="frame" x="0.0" y="121" width="600" height="44"/>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="6f9-U3-reK"/>
+                                </constraints>
+                                <state key="normal" title="验证手势密码">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="varifyBtnOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VXx-Bh-47b"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="koc-fv-hhd">
+                                <rect key="frame" x="0.0" y="211" width="600" height="44"/>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="xVQ-3M-zs6"/>
+                                </constraints>
+                                <state key="normal" title="删除手势密码">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="deleteBtnOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Jcr-XO-pjC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d7N-HE-iEr">
+                                <rect key="frame" x="0.0" y="256" width="600" height="44"/>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="beG-Yh-gQy"/>
+                                </constraints>
+                                <state key="normal" title="输入支付密码">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="inputBtnOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N4T-uQ-TAC"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3JX-9m-1Ov">
+                                <rect key="frame" x="0.0" y="166" width="600" height="44"/>
+                                <color key="backgroundColor" red="0.7019608021" green="0.7019608021" blue="0.7019608021" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="S4L-fq-tv5"/>
+                                </constraints>
+                                <state key="normal" title="修改手势密码">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="modifyBtnOnClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hne-Gz-uyt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="3JX-9m-1Ov" firstAttribute="leading" secondItem="XuK-X4-y3i" secondAttribute="leading" id="3P1-FQ-MmX"/>
+                            <constraint firstItem="XuK-X4-y3i" firstAttribute="leading" secondItem="erl-Ax-HC1" secondAttribute="leading" id="6xr-I8-DWF"/>
+                            <constraint firstItem="3JX-9m-1Ov" firstAttribute="top" secondItem="XuK-X4-y3i" secondAttribute="bottom" constant="1" id="7RP-2X-Dt3"/>
+                            <constraint firstItem="XuK-X4-y3i" firstAttribute="top" secondItem="erl-Ax-HC1" secondAttribute="bottom" constant="1" id="CdJ-aM-NHr"/>
+                            <constraint firstItem="koc-fv-hhd" firstAttribute="top" secondItem="3JX-9m-1Ov" secondAttribute="bottom" constant="1" id="ELY-er-1Vc"/>
+                            <constraint firstItem="d7N-HE-iEr" firstAttribute="trailing" secondItem="erl-Ax-HC1" secondAttribute="trailing" id="KXe-jm-9nO"/>
+                            <constraint firstItem="koc-fv-hhd" firstAttribute="top" secondItem="XuK-X4-y3i" secondAttribute="bottom" constant="100" id="SZp-Pf-yEe"/>
+                            <constraint firstItem="XuK-X4-y3i" firstAttribute="trailing" secondItem="erl-Ax-HC1" secondAttribute="trailing" id="VbP-by-ocX"/>
+                            <constraint firstItem="d7N-HE-iEr" firstAttribute="top" secondItem="koc-fv-hhd" secondAttribute="bottom" constant="1" id="g03-2z-JZt"/>
+                            <constraint firstItem="koc-fv-hhd" firstAttribute="trailing" secondItem="erl-Ax-HC1" secondAttribute="trailing" id="gBg-mb-uta"/>
+                            <constraint firstItem="3JX-9m-1Ov" firstAttribute="trailing" secondItem="XuK-X4-y3i" secondAttribute="trailing" id="hrh-76-LcG"/>
+                            <constraint firstAttribute="trailing" secondItem="erl-Ax-HC1" secondAttribute="trailing" id="htC-zR-8fJ"/>
+                            <constraint firstItem="koc-fv-hhd" firstAttribute="leading" secondItem="erl-Ax-HC1" secondAttribute="leading" id="k7s-Ns-umD"/>
+                            <constraint firstItem="erl-Ax-HC1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="rt5-Dr-HLJ"/>
+                            <constraint firstItem="erl-Ax-HC1" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="56" id="sKM-3S-dEN"/>
+                            <constraint firstItem="d7N-HE-iEr" firstAttribute="leading" secondItem="erl-Ax-HC1" secondAttribute="leading" id="wiP-iA-VzD"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="SZp-Pf-yEe"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

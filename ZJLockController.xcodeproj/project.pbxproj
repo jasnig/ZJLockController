@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A0EE28B1D95383400A3FC87 /* ZJLockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0EE2811D95383400A3FC87 /* ZJLockButton.m */; };
+		4A0EE28C1D95383400A3FC87 /* ZJLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0EE2831D95383400A3FC87 /* ZJLockView.m */; };
+		4A0EE28D1D95383400A3FC87 /* ZJLockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0EE2851D95383400A3FC87 /* ZJLockViewController.m */; };
+		4A0EE28E1D95383400A3FC87 /* ZJPasswordInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0EE2881D95383400A3FC87 /* ZJPasswordInputView.m */; };
+		4A0EE28F1D95383400A3FC87 /* ZJPasswordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A0EE28A1D95383400A3FC87 /* ZJPasswordView.m */; };
+		4A21584D1D92678C00FDCFDF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A21584C1D92678C00FDCFDF /* main.m */; };
+		4A2158501D92678C00FDCFDF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A21584F1D92678C00FDCFDF /* AppDelegate.m */; };
+		4A2158531D92678D00FDCFDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2158521D92678D00FDCFDF /* ViewController.m */; };
+		4A2158561D92678D00FDCFDF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2158541D92678D00FDCFDF /* Main.storyboard */; };
+		4A2158581D92678D00FDCFDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A2158571D92678D00FDCFDF /* Assets.xcassets */; };
+		4A21585B1D92678D00FDCFDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2158591D92678D00FDCFDF /* LaunchScreen.storyboard */; };
+		4A2158661D92678D00FDCFDF /* ZJLockControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2158651D92678D00FDCFDF /* ZJLockControllerTests.m */; };
+		4A2158711D92678D00FDCFDF /* ZJLockControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2158701D92678D00FDCFDF /* ZJLockControllerUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A2158621D92678D00FDCFDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A2158401D92678C00FDCFDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A2158471D92678C00FDCFDF;
+			remoteInfo = ZJLockController;
+		};
+		4A21586D1D92678D00FDCFDF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A2158401D92678C00FDCFDF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A2158471D92678C00FDCFDF;
+			remoteInfo = ZJLockController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A0EE2801D95383400A3FC87 /* ZJLockButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLockButton.h; sourceTree = "<group>"; };
+		4A0EE2811D95383400A3FC87 /* ZJLockButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLockButton.m; sourceTree = "<group>"; };
+		4A0EE2821D95383400A3FC87 /* ZJLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLockView.h; sourceTree = "<group>"; };
+		4A0EE2831D95383400A3FC87 /* ZJLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLockView.m; sourceTree = "<group>"; };
+		4A0EE2841D95383400A3FC87 /* ZJLockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJLockViewController.h; sourceTree = "<group>"; };
+		4A0EE2851D95383400A3FC87 /* ZJLockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJLockViewController.m; sourceTree = "<group>"; };
+		4A0EE2871D95383400A3FC87 /* ZJPasswordInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPasswordInputView.h; sourceTree = "<group>"; };
+		4A0EE2881D95383400A3FC87 /* ZJPasswordInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPasswordInputView.m; sourceTree = "<group>"; };
+		4A0EE2891D95383400A3FC87 /* ZJPasswordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZJPasswordView.h; sourceTree = "<group>"; };
+		4A0EE28A1D95383400A3FC87 /* ZJPasswordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZJPasswordView.m; sourceTree = "<group>"; };
+		4A2158481D92678C00FDCFDF /* ZJLockController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJLockController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A21584C1D92678C00FDCFDF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A21584E1D92678C00FDCFDF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A21584F1D92678C00FDCFDF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A2158511D92678C00FDCFDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A2158521D92678D00FDCFDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A2158551D92678D00FDCFDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A2158571D92678D00FDCFDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A21585A1D92678D00FDCFDF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A21585C1D92678D00FDCFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A2158611D92678D00FDCFDF /* ZJLockControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLockControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2158651D92678D00FDCFDF /* ZJLockControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJLockControllerTests.m; sourceTree = "<group>"; };
+		4A2158671D92678D00FDCFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A21586C1D92678D00FDCFDF /* ZJLockControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZJLockControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2158701D92678D00FDCFDF /* ZJLockControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZJLockControllerUITests.m; sourceTree = "<group>"; };
+		4A2158721D92678D00FDCFDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A2158451D92678C00FDCFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A21585E1D92678D00FDCFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2158691D92678D00FDCFDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A0EE27F1D95383400A3FC87 /* ZJLockViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4A0EE2801D95383400A3FC87 /* ZJLockButton.h */,
+				4A0EE2811D95383400A3FC87 /* ZJLockButton.m */,
+				4A0EE2821D95383400A3FC87 /* ZJLockView.h */,
+				4A0EE2831D95383400A3FC87 /* ZJLockView.m */,
+				4A0EE2841D95383400A3FC87 /* ZJLockViewController.h */,
+				4A0EE2851D95383400A3FC87 /* ZJLockViewController.m */,
+			);
+			path = ZJLockViewController;
+			sourceTree = "<group>";
+		};
+		4A0EE2861D95383400A3FC87 /* ZJPasswordView */ = {
+			isa = PBXGroup;
+			children = (
+				4A0EE2891D95383400A3FC87 /* ZJPasswordView.h */,
+				4A0EE28A1D95383400A3FC87 /* ZJPasswordView.m */,
+				4A0EE2871D95383400A3FC87 /* ZJPasswordInputView.h */,
+				4A0EE2881D95383400A3FC87 /* ZJPasswordInputView.m */,
+			);
+			path = ZJPasswordView;
+			sourceTree = "<group>";
+		};
+		4A21583F1D92678C00FDCFDF = {
+			isa = PBXGroup;
+			children = (
+				4A21584A1D92678C00FDCFDF /* ZJLockController */,
+				4A2158641D92678D00FDCFDF /* ZJLockControllerTests */,
+				4A21586F1D92678D00FDCFDF /* ZJLockControllerUITests */,
+				4A2158491D92678C00FDCFDF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A2158491D92678C00FDCFDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A2158481D92678C00FDCFDF /* ZJLockController.app */,
+				4A2158611D92678D00FDCFDF /* ZJLockControllerTests.xctest */,
+				4A21586C1D92678D00FDCFDF /* ZJLockControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A21584A1D92678C00FDCFDF /* ZJLockController */ = {
+			isa = PBXGroup;
+			children = (
+				4A21584E1D92678C00FDCFDF /* AppDelegate.h */,
+				4A21584F1D92678C00FDCFDF /* AppDelegate.m */,
+				4A2158511D92678C00FDCFDF /* ViewController.h */,
+				4A2158521D92678D00FDCFDF /* ViewController.m */,
+				4A0EE27F1D95383400A3FC87 /* ZJLockViewController */,
+				4A0EE2861D95383400A3FC87 /* ZJPasswordView */,
+				4A2158541D92678D00FDCFDF /* Main.storyboard */,
+				4A2158571D92678D00FDCFDF /* Assets.xcassets */,
+				4A2158591D92678D00FDCFDF /* LaunchScreen.storyboard */,
+				4A21585C1D92678D00FDCFDF /* Info.plist */,
+				4A21584B1D92678C00FDCFDF /* Supporting Files */,
+			);
+			path = ZJLockController;
+			sourceTree = "<group>";
+		};
+		4A21584B1D92678C00FDCFDF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A21584C1D92678C00FDCFDF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A2158641D92678D00FDCFDF /* ZJLockControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A2158651D92678D00FDCFDF /* ZJLockControllerTests.m */,
+				4A2158671D92678D00FDCFDF /* Info.plist */,
+			);
+			path = ZJLockControllerTests;
+			sourceTree = "<group>";
+		};
+		4A21586F1D92678D00FDCFDF /* ZJLockControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A2158701D92678D00FDCFDF /* ZJLockControllerUITests.m */,
+				4A2158721D92678D00FDCFDF /* Info.plist */,
+			);
+			path = ZJLockControllerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A2158471D92678C00FDCFDF /* ZJLockController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2158751D92678D00FDCFDF /* Build configuration list for PBXNativeTarget "ZJLockController" */;
+			buildPhases = (
+				4A2158441D92678C00FDCFDF /* Sources */,
+				4A2158451D92678C00FDCFDF /* Frameworks */,
+				4A2158461D92678C00FDCFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZJLockController;
+			productName = ZJLockController;
+			productReference = 4A2158481D92678C00FDCFDF /* ZJLockController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A2158601D92678D00FDCFDF /* ZJLockControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A2158781D92678D00FDCFDF /* Build configuration list for PBXNativeTarget "ZJLockControllerTests" */;
+			buildPhases = (
+				4A21585D1D92678D00FDCFDF /* Sources */,
+				4A21585E1D92678D00FDCFDF /* Frameworks */,
+				4A21585F1D92678D00FDCFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A2158631D92678D00FDCFDF /* PBXTargetDependency */,
+			);
+			name = ZJLockControllerTests;
+			productName = ZJLockControllerTests;
+			productReference = 4A2158611D92678D00FDCFDF /* ZJLockControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A21586B1D92678D00FDCFDF /* ZJLockControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A21587B1D92678D00FDCFDF /* Build configuration list for PBXNativeTarget "ZJLockControllerUITests" */;
+			buildPhases = (
+				4A2158681D92678D00FDCFDF /* Sources */,
+				4A2158691D92678D00FDCFDF /* Frameworks */,
+				4A21586A1D92678D00FDCFDF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A21586E1D92678D00FDCFDF /* PBXTargetDependency */,
+			);
+			name = ZJLockControllerUITests;
+			productName = ZJLockControllerUITests;
+			productReference = 4A21586C1D92678D00FDCFDF /* ZJLockControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A2158401D92678C00FDCFDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZeroJ;
+				TargetAttributes = {
+					4A2158471D92678C00FDCFDF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9G8PCT5S2D;
+					};
+					4A2158601D92678D00FDCFDF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9G8PCT5S2D;
+						TestTargetID = 4A2158471D92678C00FDCFDF;
+					};
+					4A21586B1D92678D00FDCFDF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9G8PCT5S2D;
+						TestTargetID = 4A2158471D92678C00FDCFDF;
+					};
+				};
+			};
+			buildConfigurationList = 4A2158431D92678C00FDCFDF /* Build configuration list for PBXProject "ZJLockController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A21583F1D92678C00FDCFDF;
+			productRefGroup = 4A2158491D92678C00FDCFDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A2158471D92678C00FDCFDF /* ZJLockController */,
+				4A2158601D92678D00FDCFDF /* ZJLockControllerTests */,
+				4A21586B1D92678D00FDCFDF /* ZJLockControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A2158461D92678C00FDCFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A21585B1D92678D00FDCFDF /* LaunchScreen.storyboard in Resources */,
+				4A2158581D92678D00FDCFDF /* Assets.xcassets in Resources */,
+				4A2158561D92678D00FDCFDF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A21585F1D92678D00FDCFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A21586A1D92678D00FDCFDF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A2158441D92678C00FDCFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2158531D92678D00FDCFDF /* ViewController.m in Sources */,
+				4A0EE28D1D95383400A3FC87 /* ZJLockViewController.m in Sources */,
+				4A0EE28C1D95383400A3FC87 /* ZJLockView.m in Sources */,
+				4A0EE28E1D95383400A3FC87 /* ZJPasswordInputView.m in Sources */,
+				4A2158501D92678C00FDCFDF /* AppDelegate.m in Sources */,
+				4A0EE28F1D95383400A3FC87 /* ZJPasswordView.m in Sources */,
+				4A0EE28B1D95383400A3FC87 /* ZJLockButton.m in Sources */,
+				4A21584D1D92678C00FDCFDF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A21585D1D92678D00FDCFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2158661D92678D00FDCFDF /* ZJLockControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A2158681D92678D00FDCFDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A2158711D92678D00FDCFDF /* ZJLockControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A2158631D92678D00FDCFDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A2158471D92678C00FDCFDF /* ZJLockController */;
+			targetProxy = 4A2158621D92678D00FDCFDF /* PBXContainerItemProxy */;
+		};
+		4A21586E1D92678D00FDCFDF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A2158471D92678C00FDCFDF /* ZJLockController */;
+			targetProxy = 4A21586D1D92678D00FDCFDF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A2158541D92678D00FDCFDF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2158551D92678D00FDCFDF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A2158591D92678D00FDCFDF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A21585A1D92678D00FDCFDF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A2158731D92678D00FDCFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A2158741D92678D00FDCFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A2158761D92678D00FDCFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLockController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJLockController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4A2158771D92678D00FDCFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZJLockController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJLockController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		4A2158791D92678D00FDCFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLockControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJLockControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLockController.app/ZJLockController";
+			};
+			name = Debug;
+		};
+		4A21587A1D92678D00FDCFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZJLockControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJLockControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZJLockController.app/ZJLockController";
+			};
+			name = Release;
+		};
+		4A21587C1D92678D00FDCFDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLockControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJLockControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLockController;
+			};
+			name = Debug;
+		};
+		4A21587D1D92678D00FDCFDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZJLockControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.UESTC.ZeroJ.ZJLockControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZJLockController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A2158431D92678C00FDCFDF /* Build configuration list for PBXProject "ZJLockController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2158731D92678D00FDCFDF /* Debug */,
+				4A2158741D92678D00FDCFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2158751D92678D00FDCFDF /* Build configuration list for PBXNativeTarget "ZJLockController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2158761D92678D00FDCFDF /* Debug */,
+				4A2158771D92678D00FDCFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A2158781D92678D00FDCFDF /* Build configuration list for PBXNativeTarget "ZJLockControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A2158791D92678D00FDCFDF /* Debug */,
+				4A21587A1D92678D00FDCFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A21587B1D92678D00FDCFDF /* Build configuration list for PBXNativeTarget "ZJLockControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A21587C1D92678D00FDCFDF /* Debug */,
+				4A21587D1D92678D00FDCFDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A2158401D92678C00FDCFDF /* Project object */;
+}
